@@ -4,5 +4,7 @@
   "item.yeetlytech.raw_mythril": "Raw Mythril",
 
   "block.yeetlytech.mythril_block": "Mythril Block",
-  "block.yeetlytech.mythril_ore": "Mythril Ore"
+  "block.yeetlytech.mythril_ore": "Mythril Ore",
+  "block.yeetlytech.deepslate_mythril_ore": "Deepslate Mythril Ore",
+  "block.yeetlytech.netherrack_mythril_ore": "Netherrack Mythril Ore"
 }
