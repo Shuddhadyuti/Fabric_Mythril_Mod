@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "yeetlytech",
+  "version": "${version}",
+
+  "name": "Yeetlytech Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "Kalpadyuti!"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "MIT",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.kalpadyuti.yeetlytech.Yeetlytech"
+    ]
+  },
+  "mixins": [
+    "yeetlytech.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
